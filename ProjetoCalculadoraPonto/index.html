@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Rafael de Araujo Cabral</title>
+    <script type="text/javascript" src="javascript.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <img src="logo-ahgora.png">
+    </div>
+    <div class="wrapperCalculo">
+        <div id="esquerdaContainer">
+            <p id="data"></p>
+            <div id="horasTrabalhadas"></div>
+        </div>
+        <div id="direitaContainer">
+            <h2>Calculo de Horas Trabalhadas</h2>
+            <div class="inOutput">
+                <div>
+                    <label>Hora de entrada</label>
+                    <input type="text" id="horarioEntrada" size="5" maxlength="5" placeholder="ex:12:00">
+                </div>
+                <div>
+                    <label>Hora de saida</label>
+                    <input type="text" id="horarioSaida" size="5" maxlength="5" placeholder="ex:12:00">
+                </div>
+            </div>
+            <div id="botoes">
+                <span class="hour-lunch">Hora de Almoço</span>
+                <div class="btn-lunch">
+                    <label class="btn-label" for="btn1h">
+                        <input type="radio" name ="btnRadio" id="btn1h" class="btnInput">1 Hora 
+                    </label>
+                    <label class="btn-label" for="btn2h">
+                        <input type="radio" name ="btnRadio" id="btn2h" class="btnInput">2 Horas 
+                    </label>
+                </div>
+            </div>
+            <button id="botaoCalculo" type="button" onclick="recebeHorarios()">Calcular</button>
+        </div>
+    </div>
+    <div class="conteudo">
+        <div class="imagem">
+            <img id="imgAgilidade" src="imagem-agilidade.jpg">
+        </div>
+        <div class="textoConteudo">
+            <p id="tituloAgilidade">Agilidade na rotina</p>
+            <p id="textoAgilidade">Ganhe velocidade com cálculos automáticos e resultados em tempo real. Veja o trabalho fluir.
+                    Na Ahgora ofererecemos os melhores serviços para sua empresa.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p id="textoFooter">Página desenvolvida por Rafael de Araujo Cabral. Para acessar o site da Ahgora clique <a href="https://ahgora.com/">aqui!</a></p>
+    </div>
+</body>
+
+</html>
+

@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#header img{
+    width: 240px;
+    margin: 20px auto;
+    display: block;
+}
+div.wrapperCalculo{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(60,0,116,1) 0%, rgba(182,1,98,1) 100%);
+}
+.btn{
+    background: #59595C;
+
+    border: 1px solid #797991;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:#F2F2F2;
+
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    
+    color: #F2F2F2;
+
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+#data,
+#mensagemErro{
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #F2F2F2;
+}
+#horasTrabalhadas{
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    line-height: 176px;
+    display: flex;
+    align-items: center;
+    height: 75px;
+
+    color: #F2F2F2;
+}
+#direitaContainer{ 
+    padding: 30px;
+    right: 0;
+    width: 40%;
+    height: 50%;
+    background: #F2F2F2;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 10px; 
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#esquerdaContainer{
+    position: relative;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#botaoCalculo{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 25px;
+    align-items: center;
+    color: #F2F2F2;
+    width: 366px;
+    height: 50px;
+    text-align: center;   
+    border: 0;
+    background: #0093ed;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+.horasCalculadas{
+    display: block;
+}
+#horarioEntrada{
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #59595C;
+    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    width: 286px;
+    height: 40px;
+
+    background: #F2F2F2;
+    border-radius: 8px;
+}
+#horarioSaida{
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #59595C;
+
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    width: 286px;
+    height: 40px;
+
+    background: #F2F2F2;
+    border-radius: 8px;
+}
+#conteudo{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+.hour-lunch {
+    margin: 14px 0 4px;
+    padding: 0;
+    color: #393A45;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+
+.btn-lunch {
+    display: flex;
+    margin: 10px 0;
+}
+
+.btn-label {
+    color: #f9f9f9;
+    background-color: #59595C;;
+    border: 1px solid #0000;
+    text-align: center;
+    padding: 5px 10px;
+    position: relative;
+    font-weight: 600;
+    margin: 0px 10px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.btn-label:active, .btn-label.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+}
+
+.btnInput {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.inOutput{
+    display: flex;
+}
+.inOutput div{
+    margin: 0 5px;
+    text-align: center;
+}
+.conteudo{
+   margin: 150px auto;
+   width: 75%;
+   padding: 8px;
+   align-items: center;
+   
+}
+#imgAgilidade{
+    float: left;
+    width: 700px;
+    height: 500px;
+    padding: 0 10px 0 0 ;
+    object-fit: cover;
+}
+.textoConteudo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center; 
+}
+#tituloAgilidade{
+    font-size: 55px;
+    color: #393A45;
+    font-weight: bold;
+}
+#textoAgilidade{
+    font-size: 45px;
+    font-weight: 300;
+    font-style: italic;
+}
+.footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    background: linear-gradient(90deg, rgba(60,0,116,1) 0%, rgba(182,1,98,1) 100%);
+    color: white;
+    width: 100%;
+    height: 30px;
+    position: static;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    align-items: center;
+ }
+ a{
+    color: white;
+ }
